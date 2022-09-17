@@ -107,6 +107,31 @@
             font-size: 24px;
             margin-left: 10px;
         }
+        .back {
+            background-color: green;
+
+            width: 60px;
+            height: 60px;
+
+            border-radius: 8px;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+
+            position: fixed;
+            top: 50px;
+            margin: auto;
+            left: 50px;
+
+            box-shadow: 5px 5px 10px 0px lightgray;
+        }
+        .back > span {
+            color: white;
+            text-align: center;
+            vertical-align: middle;
+        }
     </style>
 </head>
 <body>
@@ -190,6 +215,12 @@
                     <option value="3">내림차순</option>
                   </select>
             </div>
+            
+        <a href="..\index.html">
+            <div class="back">
+                <span>돌아가기</span>
+            </div>
+        </a>
     </div>
 </body>
 </html>
